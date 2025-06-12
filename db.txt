@@ -1,0 +1,11 @@
+use bs58dc64ewneyt31r7wz;
+
+create table pessoa (
+	id int not null AUTO_INCREMENT primary key,
+    nome varchar(100),
+    idade int(3)
+);
+
+insert into pessoa (nome, idade) values ('Ingrid', 20);
+
+select * from pessoa;
